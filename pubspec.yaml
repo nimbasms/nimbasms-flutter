@@ -1,5 +1,5 @@
 name: nimbasms_flutter
-description: "A new Flutter plugin project."
+description: "Flutter plugin for interacting with the Nimba SMS API"
 version: 1.0.0
 homepage: https://github.com/nimbasms/nimbasms-flutter.git
 
