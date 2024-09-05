@@ -14,6 +14,15 @@
 - [ ] Create a verification
 - [ ] Request verification
 
+### Tested Platforms and Status
+
+- [x] iOS - Tested and working
+- [x] macOS - Tested and working
+- [x] Android - Tested and working
+- [ ] Windows - Not tested yet
+- [ ] Linux - Not tested yet
+- [x] Web - Tested and working
+
 ## Getting Started
 
 ### Installation

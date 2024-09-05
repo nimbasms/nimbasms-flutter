@@ -37,15 +37,15 @@ class _MyWidgetState extends State<MyWidget>
 
   Future<void> testSendMessage() async {
     final nimbaSms = NimbaSms(
-		serviceId: '6cdf34aa4e95e37bbe8f9aa927fc1694',
-		secret: 'fIATcSdxbzAmTKcxZgP8cdQ2nuUDPPhCT1v9Bfa3hJTEHFnkWxyh6hWg8BGtBudZ0V7sVTXsusYLiz-l-fVfJ1wyyBljkWrNDAjOMu6A5qE',
+		serviceId: '',
+		secret: '',
 	);
 
 	try {
 		// Send an SMS
 		Map<String, dynamic> smsResponse = await nimbaSms.sendSms(
-			senderName: 'Sonoya POS',
-			recipients: ['627044179'],
+			senderName: 'Nimba SMS',
+			recipients: ['627XXXXX'],
 			message: 'Hello, Nimba SMS',
 		);
 		print('SMS sent successfully: $smsResponse');
