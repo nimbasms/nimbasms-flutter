@@ -1,4 +1,4 @@
-package com.example.nimbasms_flutter_example
+package com.nimbasms.nimbasms_flutter
 
 import io.flutter.embedding.android.FlutterActivity
 
