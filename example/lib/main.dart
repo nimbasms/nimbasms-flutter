@@ -36,14 +36,14 @@ class _MyWidgetState extends State<MyWidget>
   }
 
   Future<void> testSendMessage() async {
-    final nimbaSms = NimbaSms(
+    final nimbaSms = NimbaSMS(
 		serviceId: '',
 		secret: '',
 	);
 
 	try {
 		// Send an SMS
-		Map<String, dynamic> smsResponse = await nimbaSms.sendSms(
+		Map<String, dynamic> smsResponse = await nimbaSms.send(
 			senderName: 'Nimba SMS',
 			recipients: ['627XXXXX'],
 			message: 'Hello, Nimba SMS',

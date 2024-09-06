@@ -9,9 +9,9 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 Flutter plugin for interacting with the Nimba SMS API.
                        DESC
-  s.homepage         = 'http://example.com'
+  s.homepage         = 'https://nimbasms.com'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Nimba SMS' => 'email@example.com' }
+  s.author           = { 'Nimba SMS' => 'contact@nimbasms.com' }
 
   s.source           = { :path => '.' }
   s.source_files     = 'Classes/**/*'

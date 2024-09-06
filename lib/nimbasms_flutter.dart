@@ -3,23 +3,22 @@ library nimbasms_flutter;
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 
-class NimbaSms {
+class NimbaSMS {
 	final String serviceId;
 	final String secret;
 	final String apiKey;
 	static const String baseUrl = 'https://api.nimbasms.com/v1';
 
-	NimbaSms({required this.serviceId, required this.secret})
+	NimbaSMS({required this.serviceId, required this.secret})
 		: apiKey = base64Encode(utf8.encode('$serviceId:$secret'));
 
 	/// Sends an SMS using the Nimba SMS API.
-	Future<Map<String, dynamic>> sendSms({
+	Future<Map<String, dynamic>> send({
 		required String senderName,
 		required List<String> recipients,
 		required String message,
 	}) async {
 
-    print(apiKey);
 		final url = Uri.parse('$baseUrl/messages');
 		final headers = {
 			'Content-Type': 'application/json',
