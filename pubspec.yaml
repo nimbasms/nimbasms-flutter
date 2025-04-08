@@ -1,6 +1,6 @@
 name: nimbasms_flutter
 description: "Flutter plugin for interacting with the Nimba SMS API"
-version: 1.0.0
+version: 1.0.2
 homepage: https://github.com/nimbasms/nimbasms-flutter.git
 
 environment:
@@ -12,7 +12,7 @@ dependencies:
     sdk: flutter
   flutter_web_plugins:
     sdk: flutter
-  web: ^0.5.1
+  web: ^1.1.0
   plugin_platform_interface: ^2.0.2
   http: ^1.2.2
 
